@@ -12,6 +12,8 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
+string = gets.chomp
+
 def speak_to_grandma(string)
   if string == string.upcase
   puts "NO, NOT SINCE 1938"
