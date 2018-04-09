@@ -12,14 +12,14 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-string = gets.chomp
 
-def speak_to_grandma
+
+def speak_to_grandma(string)
   if string == string.upcase
   puts "NO, NOT SINCE 1938"
-elsif string == "I LOVE YOU GRANDMA!"
+  elsif string == "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU TOO PUMPKIN!"
-else
+  else
   puts "HUH?! SPEAK UP, SONNY!"
-end
+  end
 end
